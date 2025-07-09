@@ -8,12 +8,14 @@ body {
 
 p {
     color: #E1CE7A;
+    font-size: 140%;
+    text-shadow: 2px 2px 3px black;
 }
 
 h1 {
     color: #EC7357;
     text-align: center;
-    padding: 30px;
+    
 }
 nav {
     color: brown;
@@ -21,6 +23,7 @@ nav {
     font-size: 20px;
     border-radius: 5px;
     text-align: center;
+    margin-left: 30px;
     
 }
 a {
@@ -48,4 +51,5 @@ main {
 }
 h2 {
     color: #EC7357;
+    text-align: center;
 }
