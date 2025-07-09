@@ -23,9 +23,6 @@ nav {
     text-align: center;
     
 }
-.ola{
-    
-}
 a {
     text-decoration: none;
     background-color: antiquewhite;
@@ -37,9 +34,18 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+a:visited{
+    color: blue;
+}
 main {
     padding-right: 30px;
     padding-left: 30px;
     text-align: center;
+}
+.especial{
+    display: inline-block;
+    margin: 10px;
+}
+h2 {
+    color: #EC7357;
 }
