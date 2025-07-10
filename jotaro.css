@@ -53,6 +53,7 @@ main {
     padding-right: 30px;
     padding-left: 30px;
     text-align: center;
+    min-width: 200px;
 }
 .especial{
     display: inline-block;
