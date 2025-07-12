@@ -1,19 +1,31 @@
 @charset "UTF-8";
 :root{
-    --cor0dafonte: #F8F0FB;
-    --cor1dofundo: #29335C;
-    --cor2outra: #FFD639;
-    --cor3dotitulo: #121a50;
+    --cor0dafonte: #FFD639;
+    --cor1dotitulo: #0e142e;
+    --cor2outra: #E3E8E4;
+    --cor3dofundo: #3A4177;
     --cor4: ;
     --cor5: ;
 
 }
 body{
-    background-color: var(--cor3dotitulo);
+    background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     text-align: center;
+}
+main{
+    background-color: var(--cor3dofundo);
+    text-align: center;
+    margin: -20px 100px ;
+    
+    
+}
+h1{
+    color: var(--cor1dotitulo);
+    font-size: 30px;
+    
 }
 a{
     background-color: antiquewhite;
@@ -35,7 +47,7 @@ nav{
 }
 p{
     color: var(--cor0dafonte);
-    text-shadow: 2px 2px 3px black;
+    
     font-size: 160%;
     padding-right: 20px;
     padding-left: 20px;
@@ -44,15 +56,10 @@ p{
     text-align: justify;
 }
 h1{
-    color: var(--cor1dofundo);
+    color: var(--cor1dotitulo);
 }
 h2{
-    color: var(--cor1dofundo);
-}
-main{
-    text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
+    color: var(--cor1dotitulo);
 }
 .especial{
     display: inline-block;
