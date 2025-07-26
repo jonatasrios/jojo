@@ -30,7 +30,7 @@ h3{
     text-align: center;
     font-size: 30px;
 }
-.titulo2{
+#titulo2{
     text-align: center;
     font-size: 50px;
     color: var(--cor0);
